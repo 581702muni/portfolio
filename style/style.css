@@ -1,0 +1,117 @@
+body
+{ font: normal .80em arial, sans-serif;
+  background: #FFF;
+  color: #555;}
+
+p { padding: 0 0 20px 0; line-height: 1.7em;}
+
+h1
+{ color: #A21FA2;
+  font: normal 170% arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+#main,
+#menubar,
+#site,
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  position: relative;
+  height: 177px;
+  background: #DFABF5;
+  border-bottom: 2px solid #A21FA2;
+}
+
+#header_text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+}
+
+#header_text h1 {
+  font: normal 300% Arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+#header_text h1 a {
+  padding: 22px 0 0 0;
+  color: #FFF;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+#menubar {
+  width: 880px;
+  height: 46px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul#menu {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu li {
+  float: left;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+ul#menu li a {
+  font: normal 100% "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+}
+
+ul#menu li.selected {
+  background: #A21FA2;
+}
+
+ul#menu li.selected a,
+ul#menu li a:hover {
+  background: #A21FA2;
+  color: #FFF;
+}
+
+#site {
+  width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding-bottom: 10px;
+}
+
+#banner, #banner2 {
+  background: url(banner.jpg) no-repeat center;
+  width: 870px;
+  height: 140px;
+  margin: 0 auto 20px auto;
+  border: 5px solid #A21FA2;
+}
+
+
+#footer {
+  width: 100%;
+  height: 80px;
+  padding: 28px 0 5px 0;
+  text-align: center;
+  background: #DFABF5;
+  border-top: 2px solid #A21FA2;
+  color: #FFF;
+}
+
+  
+
+
+  
